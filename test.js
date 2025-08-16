@@ -1101,6 +1101,12 @@ const message = `Na Bolle Sadia, ase amar ${getName()}!`;
 
 const age___ = 12
 const status = `You are ${age___>=18? "Adult ": "Minor"}`
-console.log(status)
+// console.log(status)
 
+const user = {
+  name: "Tariq",
+  age: 25
+}
+  const info =`Name: ${user.name}, Age: ${user.age}`
 
+  console.log(info)
