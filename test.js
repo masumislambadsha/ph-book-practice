@@ -1109,4 +1109,11 @@ const user = {
 }
   const info =`Name: ${user.name}, Age: ${user.age}`
 
-  console.log(info)
+// console.log(info)
+
+function fruits() {
+  const fruits = ['Apple', 'Banana', 'Mango']
+  const list = `My Favorit fruits are : ${fruits.join(", ")}`
+  console.log(list) 
+}
+fruits()
