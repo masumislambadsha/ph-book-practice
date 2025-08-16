@@ -1140,4 +1140,12 @@ function circleRadius() {
 const greet = function (name) {
   return `Hello, ${name}` 
 }
-console.log(greet("Nadia"))
+// console.log(greet("Nadia"))
+
+function diff() {
+  const num1 = 100
+  const num2 = 20
+  const res = ` The difference between ${num1} and ${num2} is ${num1 - num2}`
+  console.log(res)
+}
+// diff()
