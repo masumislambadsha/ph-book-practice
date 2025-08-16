@@ -1149,3 +1149,17 @@ function diff() {
   console.log(res)
 }
 // diff()
+
+// function obj() {
+
+//   const employee =`Name:`
+// }
+
+function interestCalculator(Obj = { principal: 1000, rate: 5 }) {
+let interest = Obj.principal * ( Obj.rate / 100)
+return interest
+}
+
+let interest = interestCalculator({ principal: 2300, rate: 5 });
+
+console.log(interest)
