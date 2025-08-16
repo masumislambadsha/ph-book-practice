@@ -1128,12 +1128,11 @@ function html() {
     </div>`
   console.log(html)
 }
-html()
+// html()
 
-// const title = "Welcome";
-// const body = "This is a dynamic template.";
-// const html = `<div>
-// <h1>${title}</h1>
-// <p>${body}</p>
-// </div>`;
-// console.log(html);
+function circleRadius() {
+  const radius = 5
+  const area = `Circle area is ${Math.round(Math.PI * radius ** 2)}`
+  console.log(area)
+} 
+circleRadius()
