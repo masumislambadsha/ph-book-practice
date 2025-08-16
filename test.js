@@ -1097,9 +1097,10 @@ const getName = function(){
 return "Nadia";
 }
 const message = `Na Bolle Sadia, ase amar ${getName()}!`;
-console.log(message);
+// console.log(message);
 
-
-
+const age___ = 12
+const status = `You are ${age___>=18? "Adult ": "Minor"}`
+console.log(status)
 
 
