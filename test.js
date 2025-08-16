@@ -1135,4 +1135,9 @@ function circleRadius() {
   const area = `Circle area is ${Math.round(Math.PI * radius ** 2)}`
   console.log(area)
 } 
-circleRadius()
+// circleRadius()
+
+const greet = function (name) {
+  return `Hello, ${name}` 
+}
+console.log(greet("Nadia"))
