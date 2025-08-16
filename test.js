@@ -1114,6 +1114,26 @@ const user = {
 function fruits() {
   const fruits = ['Apple', 'Banana', 'Mango']
   const list = `My Favorit fruits are : ${fruits.join(", ")}`
-  console.log(list) 
+  // console.log(list) 
 }
 fruits()
+
+function html() {
+  const title = "Welcome"
+  const body = 'This is a dynamic template'
+  const html =
+    `<div>
+      <h1>${title}</h1>
+      <p>${body}</p>
+    </div>`
+  console.log(html)
+}
+html()
+
+// const title = "Welcome";
+// const body = "This is a dynamic template.";
+// const html = `<div>
+// <h1>${title}</h1>
+// <p>${body}</p>
+// </div>`;
+// console.log(html);
