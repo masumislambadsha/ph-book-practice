@@ -1162,4 +1162,14 @@ return interest
 
 let interest = interestCalculator({ principal: 2300, rate: 5 });
 
-console.log(interest)
+// console.log(interest)
+function simpleFunc(numbers = [5, 10, 15]) {
+let newArr = []
+for (const num of numbers) {
+newArr.push(num*2)
+}
+return newArr
+}
+
+let newArray = simpleFunc([12,12,12])
+console.log(newArray)
