@@ -1099,12 +1099,7 @@ return "Nadia";
 const message = `Na Bolle Sadia, ase amar ${getName()}!`;
 console.log(message);
 
-const amarNaam = `Badsha`
-console.log(amarNaam)
-const tomarNaam = `Badsha`
-console.log(tomarNaam)
-const tarNaam = `Badsha`
-console.log(tarNaam)
+
 
 
 
