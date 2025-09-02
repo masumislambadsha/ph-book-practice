@@ -527,203 +527,176 @@ function evenSizedString(str) {
     return false;
   }
 }
-const isEVen = evenSizedString("Dhak")
+const isEVen = evenSizedString("Dhak");
 // console.log(isEVen)
-
-
 
 function doubleOrTriple(num, doDouble) {
   if (doDouble === true) {
     // const result = num * 2
-    console.log(num*2)
-  }
-  else {
+    console.log(num * 2);
+  } else {
     // const result = num * 3
-    console.log(num*3)
+    console.log(num * 3);
   }
 }
 // doubleOrTriple(3,true)
 // doubleOrTriple(3,false)
 
 function numberOfElements(nums) {
-  return nums
+  return nums;
 }
-numberOfElements([12, 45, 67, 67, 56, 45, 67, 5454, 45])
+numberOfElements([12, 45, 67, 67, 56, 45, 67, 5454, 45]);
 // console.log(nums.length)
-
-
 
 function checkArray(nums) {
   if (nums.length % 2 === 0) {
-    return true
-  }
-  else {
-    return false
+    return true;
+  } else {
+    return false;
   }
 }
-const ifEven=checkArray([12,  67, 67, 56, 45, 67, 545,4])
+const ifEven = checkArray([12, 67, 67, 56, 45, 67, 545, 4]);
 // console.log(ifEven)
 
 function isPassed(name, ifPassed) {
-  if (ifPassed === true)
-  {
-    console.log(name[0])
+  if (ifPassed === true) {
+    console.log(name[0]);
   }
 }
 // const ifPassed = isPassed('Raju', true)
 
-
 function numCheck(num) {
   if (num > 10) {
-    console.log(num/10)
-  }
-  else {
-    console.log(num*10)
+    console.log(num / 10);
+  } else {
+    console.log(num * 10);
   }
 }
 // numCheck(15)
 
 function numsArray(array) {
-  let len = array[0]+array[1]
-  return len
+  let len = array[0] + array[1];
+  return len;
 }
-const len=numsArray([12, 54, 34, 67, 432])
+const len = numsArray([12, 54, 34, 67, 432]);
 // console.log(len)
-
 
 function names(firstName, secondName) {
   if (firstName.length > secondName.length) {
-      return true  
-  }
-  else {
-    return false
+    return true;
+  } else {
+    return false;
   }
 }
-const namesResult = names('Badsha', 'Masum')
+const namesResult = names("Badsha", "Masum");
 // console.log(namesResult)
 
-function Multi(num1, num2 ) {
-  const multipl = num1 * num2
-  if (multipl > 120)
-  {
-    console.log(multipl/2)
-  }
-  else {
-    console.log(multipl)
+function Multi(num1, num2) {
+  const multipl = num1 * num2;
+  if (multipl > 120) {
+    console.log(multipl / 2);
+  } else {
+    console.log(multipl);
   }
 
-  return multipl
+  return multipl;
 }
 // const multiplResult = Multi(12, 12)
 
-
 function arraySum(numbers) {
-  let sum = 0
+  let sum = 0;
   for (let number of numbers) {
-    sum += number
-  } 
-  console.log('Sum of the numbers :',sum)
-  return num
+    sum += number;
+  }
+  console.log("Sum of the numbers :", sum);
+  return num;
 }
 // const array = arraySum([12, 45, 6, 8, 14])
 
 function arraySum(numbers) {
-  let sum = 0
+  let sum = 0;
   for (let number of numbers) {
     if (number % 2 === 0) {
-      sum += number
+      sum += number;
     }
-    
-  } 
-  console.log('Sum of the numbers :',sum)
-  return num
+  }
+  console.log("Sum of the numbers :", sum);
+  return num;
 }
 // const array = arraySum([54, 13, 1, 6])
 
 function arraySum(numbers) {
-  let sum = 0
+  let sum = 0;
   for (let number of numbers) {
     if (number % 2 != 0) {
-      sum += number
+      sum += number;
     }
-    
-  } 
-  console.log('Sum of the numbers :',sum)
-  return num
+  }
+  console.log("Sum of the numbers :", sum);
+  return num;
 }
 // const array = arraySum([5, 15, 8, 7])
 
 function small(number) {
-
-  console.log(Math.min(...number))
-  return number
+  console.log(Math.min(...number));
+  return number;
 }
 // const smallNumber = small([20, 45, 78])
 
 function Age(number) {
   if (number < 18) {
-    console.log('Age :', 18)
+    console.log("Age :", 18);
+  } else if (number > 45) {
+    console.log("Age :", 45);
+  } else {
+    console.log("Age :", number);
   }
-  else if (number > 45) {
-    console.log('Age :', 45 )
-  }
-  else {
-    console.log('Age :', number)
-  }
-    return number
+  return number;
 }
 // const age_ = Age(34)
 
-
-
 function arraySum(numbers) {
-  let sum = 0
+  let sum = 0;
   for (let number of numbers) {
     if (number % 4 === 0) {
-      sum += number
+      sum += number;
     }
-    
-  } 
-  console.log('Sum of the numbers :',sum)
-  return num
+  }
+  console.log("Sum of the numbers :", sum);
+  return num;
 }
 // const array = arraySum([2, 4, 5, 7, 8, 32, 45])
 
-
- 
 function numCheck(num) {
-  
   if (num < 20) {
-     console.log(num*2)
-  }
-  else {
-   console.log(num/20)
+    console.log(num * 2);
+  } else {
+    console.log(num / 20);
   }
 }
 // numCheck(45)
 
 function arraySum(numbers) {
-  let sum = 0
+  let sum = 0;
   for (let number of numbers) {
     if (number < 0) {
-      sum += number
+      sum += number;
     }
-    
-  } 
-  console.log('Sum of the numbers :',sum)
-  return num
+  }
+  console.log("Sum of the numbers :", sum);
+  return num;
 }
 // const array = arraySum([2, -4, 5, -7, 8, -32, 45])
 
-
 function sumArray(numbers) {
-  let multipl=1
+  let multipl = 1;
   for (const number of numbers) {
     if (number % 3 === 0) {
-      multipl = multipl * number
+      multipl = multipl * number;
     }
-  }console.log(multipl)
- return
+  }
+  console.log(multipl);
+  return;
 }
 // const multiResult = sumArray([2, 9, 5, 15, 8, 32, 45])
 
@@ -735,95 +708,87 @@ function sumArray(numbers) {
 // inchToFeet(75)
 
 function inchToFeet2(inch) {
-  const feet = inch / 12
-  const feetInt = parseInt(feet)
+  const feet = inch / 12;
+  const feetInt = parseInt(feet);
 
-  const inchRemaining = inch % 12
-  const result = feetInt + ' ft ' + inchRemaining + ' inch '
-  console.log(result)
-  return result
+  const inchRemaining = inch % 12;
+  const result = feetInt + " ft " + inchRemaining + " inch ";
+  console.log(result);
+  return result;
 }
 
 // const result34 =inchToFeet2(75)
 
-
 function mileToKilo(mile) {
-  const kilo = mile * 1.609
-  console.log(kilo)
-} 
+  const kilo = mile * 1.609;
+  console.log(kilo);
+}
 // mileToKilo(1)
 
 function kiloToMile(kilo) {
-  const mile = kilo * 0.621371
-  console.log(mile)
+  const mile = kilo * 0.621371;
+  console.log(mile);
 }
 // kiloToMile(1)
 
 function mileToGoj(mile) {
-  const goj = mile * 1760
-  return goj
+  const goj = mile * 1760;
+  return goj;
 }
-const result_mileToGoj = mileToGoj(13)
+const result_mileToGoj = mileToGoj(13);
 // console.log(result_mileToGoj)
 
 function kilowattToKilocalori(kilowatt) {
-  const kilocalori = kilowatt * 860
-  console.log(kilocalori)
+  const kilocalori = kilowatt * 860;
+  console.log(kilocalori);
 }
 // kilowattToKilocalori(5)
 
 function hourToSecond(hour) {
-  const second = hour * 3600
-  console.log(second)
+  const second = hour * 3600;
+  console.log(second);
 }
 // hourToSecond(5)
 
 function sentiToMeter(senti) {
-  const meter = senti /100
-  console.log(meter)
+  const meter = senti / 100;
+  console.log(meter);
 }
 // sentiToMeter(9837)
 
 function leapYear(year) {
   if (year % 400 === 0) {
-    return true
+    return true;
+  } else {
+    return false;
   }
-  else {
-    return false
 }
-}
-const resultleapYear = leapYear(2300)
+const resultleapYear = leapYear(2300);
 // console.log(resultleapYear)
 
 function tax(incomeAmount) {
   if (incomeAmount <= 50000) {
-    return 10
-  }
-  else if (incomeAmount >= 50001 && incomeAmount < 100000) {
-    return 20
-  }
-  else if (incomeAmount >= 100001 && incomeAmount < 200000) {
-    return 30
-  }
-  else {
-    return 40
+    return 10;
+  } else if (incomeAmount >= 50001 && incomeAmount < 100000) {
+    return 20;
+  } else if (incomeAmount >= 100001 && incomeAmount < 200000) {
+    return 30;
+  } else {
+    return 40;
   }
 }
-  const taxAmount=tax(200000)
+const taxAmount = tax(200000);
 // console.log(taxAmount)
 
 function deliveryCharge(weight) {
   if (weight < 10) {
-    console.log(100 ,'Tk')
-  }
-  else if (weight >= 10 && weight < 20) {
-     console.log(200 ,'Tk')
-  }
-  else if (weight >= 20 && weight < 50) {
-     console.log(1000 ,'Tk')
-  }
-  else {
-    console.log(1000 +(weight -50)* 100, 'Tk')
+    console.log(100, "Tk");
+  } else if (weight >= 10 && weight < 20) {
+    console.log(200, "Tk");
+  } else if (weight >= 20 && weight < 50) {
+    console.log(1000, "Tk");
+  } else {
+    console.log(1000 + (weight - 50) * 100, "Tk");
   }
 }
 // const delivery_Charge = deliveryCharge(55)
@@ -837,25 +802,24 @@ function deliveryCharge(weight) {
 //       return count
 //     }
 //   }
-  
+
 // }
 // const leap_Year = leapYearCount([2015, 2020, 2024, 2025, 2028, 2040, 2030])
 
 function leapYearCount(years) {
-    let count = 0; // Initialize a counter for leap years
+  let count = 0; // Initialize a counter for leap years
 
-    for (const year of years) {
-        if ((year % 400 === 0) || (year % 100 !== 0 && year % 4 === 0)) {
-            count++; // Increment count for each leap year
-        }
+  for (const year of years) {
+    if (year % 400 === 0 || (year % 100 !== 0 && year % 4 === 0)) {
+      count++; // Increment count for each leap year
     }
+  }
 
-    console.log(count); // Log the total count (optional)
-    return count; // Return the total count
+  console.log(count); // Log the total count (optional)
+  return count; // Return the total count
 }
 
 // const leapYearsFound = leapYearCount([2015, 2020, 2024, 2025, 2028, 2040, 2030]);
-
 
 // function avgOfOddds(numbers) {
 //   const oddArray = []
@@ -867,15 +831,12 @@ function leapYearCount(years) {
 //   let sumOfOdds = 0
 //   for (const number of oddArray) {
 //     sumOfOdds += number
-    
+
 //   }
 //   const lengthOfOdds = oddArray.length
 //   console.log(sumOfOdds /lengthOfOdds)
 // }
 // const avg_OfOddds = avgOfOddds([42, 13, 58, 65, 81, 96, 7])
-
-
-
 
 // function avgOfOddds(odds) {
 //   let oddArray =[]
@@ -890,54 +851,50 @@ function leapYearCount(years) {
 //   for (const number of oddArray) {
 //     sum+=number
 //   }
-//   const lenOfOdds = oddArray.length 
+//   const lenOfOdds = oddArray.length
 //   console.log(sum/lenOfOdds)
 // }
 // const avg_OfOddds = avgOfOddds([42, , 58, 65, , 96])
 // console.log(avg_OfOddds)
 
 function avgOfEvens(evens) {
-  let evenArray = []
+  let evenArray = [];
   for (const number of evens) {
-   
     if (number % 2 === 0) {
-      evenArray.push(number)
+      evenArray.push(number);
     }
   }
-  let sumOfEvens = 0
+  let sumOfEvens = 0;
   for (const num of evenArray) {
- 
-    sumOfEvens += num
+    sumOfEvens += num;
   }
-  const evenLength = evenArray.length
-  const result = sumOfEvens / evenLength
+  const evenLength = evenArray.length;
+  const result = sumOfEvens / evenLength;
   // console.log(result)
-  return result
+  return result;
 }
-const result_avgOfEvens=avgOfEvens([12,13,14,15,16,17,18,19,20])
+const result_avgOfEvens = avgOfEvens([12, 13, 14, 15, 16, 17, 18, 19, 20]);
 // console.log(result_avgOfEvens)
 
 function multiplOdds(odds) {
-  let oddArray =[]
+  let oddArray = [];
   for (const num of odds) {
     if (num % 2 != 0) {
-          oddArray.push(num*2)
+      oddArray.push(num * 2);
     }
-  } 
-  return oddArray
+  }
+  return oddArray;
 }
 // const multipl_Odds=multiplOdds([12,13,14,15,16,17,18,19,20])
 // console.log(multipl_Odds)
 
 function countOddNumbers(numbers) {
-  let oddArray = []
+  let oddArray = [];
   for (const num of numbers) {
     if (num % 2 != 0) {
-      return "Odd numbers found"
-    }
-    else {
-      return "No odd numbes found"
-    
+      return "Odd numbers found";
+    } else {
+      return "No odd numbes found";
     }
   }
 }
@@ -945,66 +902,61 @@ function countOddNumbers(numbers) {
 // console.log( count_OddNumbers)
 
 function oddNumberAvg(numbers) {
-  let oddArray = []
+  let oddArray = [];
   for (const num of numbers) {
     if (num % 2 != 0) {
-     oddArray.push(num)
+      oddArray.push(num);
     }
   }
-  let size = oddArray.length
-  let sum = 0
+  let size = oddArray.length;
+  let sum = 0;
   for (const num of oddArray) {
-    sum+=num
+    sum += num;
   }
-   const avg = sum / size
-    return avg
-   
-
-}// const odd=oddNumberAvg([12,13,14,15,16,17,18,19,20])
+  const avg = sum / size;
+  return avg;
+} // const odd=oddNumberAvg([12,13,14,15,16,17,18,19,20])
 // console.log(odd_NumberAvg)
 
 function oddMinus(odds) {
-  let oddArray =[]
+  let oddArray = [];
   for (const num of odds) {
     if (num % 2 != 0) {
-          oddArray.push(num-1)
+      oddArray.push(num - 1);
     }
-  } 
-  return oddArray
+  }
+  return oddArray;
 }
 // const odd_Minus=oddMinus([12,13,14,15,16,17,18,19,20])
 // console.log(odd_Minus)
 
-const students = ['abul', 'babul', 'cabul', 'abul', 'babul', 'dabul'];
+const students = ["abul", "babul", "cabul", "abul", "babul", "dabul"];
 const numbs = [1, 5, 61, 5, 87, 7, 5, 81, 61];
-const unique = []
-
+const unique = [];
 
 function NoDuplicate(students) {
   for (const item of students) {
     if (!unique.includes(item)) {
-      unique.push(item)
+      unique.push(item);
     }
   }
-  return unique
+  return unique;
 }
 // const No_Duplicate = NoDuplicate(students)
 // console.log(No_Duplicate)
 
-let a = 2
-let b = 3
-let temp = a
+let a = 2;
+let b = 3;
+let temp = a;
 // console.log(a,b)
 
-a = b
-b = temp
+a = b;
+b = temp;
 // console.log(a,b)
-
 
 const numbrs = [23, 4, 23, 12, 56];
 numbrs[1] = 55;
 // console.log(numbrs);
-
 
 const nmbers = [23, 4, 23, 12, 56];
 nmbers[1] = 55;
@@ -1012,35 +964,34 @@ nmbers.push(8, 9, 65);
 // console.log(nmbers);
 
 function add(num1, num2 = 0) {
-  const result = num1 + num2
+  const result = num1 + num2;
   // console.log(result, num1, num2)
-  return result
+  return result;
 }
 // const suum = add(5)
 // console.log(suum)
 
-function defNumber(num1, num2,num3 = 0) {
-  const result = num1 + num2 + num3
+function defNumber(num1, num2, num3 = 0) {
+  const result = num1 + num2 + num3;
   // console.log(num1 ,num2 , num3, result)
-  return result
+  return result;
 }
 // const def_Number = defNumber(5, 9)
 // console.log(def_Number)
 
-
-function Profile(name ='anonymous', salary = 0 ) {
+function Profile(name = "anonymous", salary = 0) {
   // console.log(name, salary)
 }
 
-Profile('sadiya', 30000)
+Profile("sadiya", 30000);
 
 function getSquare(number) {
-  if (typeof number != 'number') {
-    return  number =1
+  if (typeof number != "number") {
+    return (number = 1);
   }
 
-  const result = number ** 2
-  return result
+  const result = number ** 2;
+  return result;
 }
 // const get_Square = getSquare('badsha')
 // console.log(get_Square)
@@ -1049,104 +1000,104 @@ function getSquare(number) {
 //   return n
 // }
 
-function favBook(arr=['JS BOOK']) {
-  let books= []
+function favBook(arr = ["JS BOOK"]) {
+  let books = [];
   for (const book of arr) {
-    books.push(book)
-  } return books 
+    books.push(book);
+  }
+  return books;
 }
 
 // const fav_Book = favBook()
 // console.log(fav_Book)
 
 function getObject(price = 10, quantity = 1) {
-  const totalPrice = price * quantity
-  return totalPrice
+  const totalPrice = price * quantity;
+  return totalPrice;
 }
 // const get_Object = getObject()
 // console.log(get_Object)\
 
-function arrayDouble(arr = [5,10,15]) {
-  let array = []
+function arrayDouble(arr = [5, 10, 15]) {
+  let array = [];
   for (const element of arr) {
-    array.push( element*2)
+    array.push(element * 2);
   }
- return array
+  return array;
 }
 // const array_Double = arrayDouble([52,120,152])
 // console.log(array_Double)
 
-const name = 'Rofiq'
-const age__ = 30
+const name = "Rofiq";
+const age__ = 30;
 // console.log(`Name :${name}, Age:${age__}`)
 
 function test() {
-  const a = 10
-  const b = 20
-  const math =`the sum of ${a} and ${b} is ${a+b}`
-  return math
+  const a = 10;
+  const b = 20;
+  const math = `the sum of ${a} and ${b} is ${a + b}`;
+  return math;
 }
-const Test = test()
+const Test = test();
 //console.log(Test)
 
 const email = `Jhon Cena
 cena naki ochena
-mair khaile bachena`
+mair khaile bachena`;
 
-const getName = function(){
-return "Nadia";
-}
+const getName = function () {
+  return "Nadia";
+};
 const message = `Na Bolle Sadia, ase amar ${getName()}!`;
 // console.log(message);
 
-const age___ = 12
-const status = `You are ${age___>=18? "Adult ": "Minor"}`
+const age___ = 12;
+const status = `You are ${age___ >= 18 ? "Adult " : "Minor"}`;
 // console.log(status)
 
 const user = {
   name: "Tariq",
-  age: 25
-}
-  const info =`Name: ${user.name}, Age: ${user.age}`
+  age: 25,
+};
+const info = `Name: ${user.name}, Age: ${user.age}`;
 
 // console.log(info)
 
 function fruits() {
-  const fruits = ['Apple', 'Banana', 'Mango']
-  const list = `My Favorit fruits are : ${fruits.join(", ")}`
-  // console.log(list) 
+  const fruits = ["Apple", "Banana", "Mango"];
+  const list = `My Favorit fruits are : ${fruits.join(", ")}`;
+  // console.log(list)
 }
-fruits()
+fruits();
 
 function html() {
-  const title = "Welcome"
-  const body = 'This is a dynamic template'
-  const html =
-    `<div>
+  const title = "Welcome";
+  const body = "This is a dynamic template";
+  const html = `<div>
       <h1>${title}</h1>
       <p>${body}</p>
-    </div>`
-  console.log(html)
+    </div>`;
+  console.log(html);
 }
 // html()
 
 function circleRadius() {
-  const radius = 5
-  const area = `Circle area is ${Math.round(Math.PI * radius ** 2)}`
-  console.log(area)
-} 
+  const radius = 5;
+  const area = `Circle area is ${Math.round(Math.PI * radius ** 2)}`;
+  console.log(area);
+}
 // circleRadius()
 
 const greet = function (name) {
-  return `Hello, ${name}` 
-}
+  return `Hello, ${name}`;
+};
 // console.log(greet("Nadia"))
 
 function diff() {
-  const num1 = 100
-  const num2 = 20
-  const res = ` The difference between ${num1} and ${num2} is ${num1 - num2}`
-  console.log(res)
+  const num1 = 100;
+  const num2 = 20;
+  const res = ` The difference between ${num1} and ${num2} is ${num1 - num2}`;
+  console.log(res);
 }
 // diff()
 
@@ -1156,20 +1107,37 @@ function diff() {
 // }
 
 function interestCalculator(Obj = { principal: 1000, rate: 5 }) {
-let interest = Obj.principal * ( Obj.rate / 100)
-return interest
+  let interest = Obj.principal * (Obj.rate / 100);
+  return interest;
 }
 
 let interest = interestCalculator({ principal: 2300, rate: 5 });
 
 // console.log(interest)
 function simpleFunc(numbers = [5, 10, 15]) {
-let newArr = []
-for (const num of numbers) {
-newArr.push(num*2)
-}
-return newArr
+  let newArr = [];
+  for (const num of numbers) {
+    newArr.push(num * 2);
+  }
+  return newArr;
 }
 
-let newArray = simpleFunc([12,12,12])
-console.log(newArray)
+let newArray = simpleFunc([12, 12, 12]);
+// console.log(newArray)
+
+const add4 = (a, b) => a + b;
+
+// const sumResult = add4(3,7)
+// console.log(sumResult);
+
+const student = {
+  name:'anata',
+  age:23
+}
+const getName1 = person => person.name
+
+const getAge = person => person.age
+
+const agee = getName1(student)
+// console.log(agee);
+
